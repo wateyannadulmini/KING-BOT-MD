@@ -2087,19 +2087,19 @@ break
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: `*┏━━━━❬νιнαηgα м∂🧚❭*
+                    caption: `┏━━━━❬νιнαηgα м∂🧚❭*
 
     *⬇️ YOUTUBE DOWNLODER*
 
-```┃💎Title :``` ${anu.title}
+┃💎Title : ```${anu.title}```
 
-```┃⏳Duration :``` ${anu.timestamp}
+┃⏳Duration : ```${anu.timestamp}```
 
-```┃✍️Author :``` ${anu.author.name}
+┃✍️Author : ```${anu.author.name}```
 
-```┃🔗Url :``` ${anu.url}
+┃🔗Url : ```${anu.url}```
 
-```┃⌛Runtime :``` ${runtime(process.uptime())}
+┃⌛Runtime : ```${runtime(process.uptime())}```
 
 ┗━━━━━━━━━❊`,
                     footer: KingmdWH.user.name,
@@ -2125,15 +2125,15 @@ break
 
     *⬇️ YOUTUBE VIDE0 DOWNLODER*
 
-```┃💎Title :``` ${anu.title}
+┃💎Title : ```${anu.title}```
 
-```┃⏳Duration :``` ${anu.timestamp}
+┃⏳Duration : ```${anu.timestamp}```
 
-```┃✍️Author :``` ${anu.author.name}
+┃✍️Author : ```${anu.author.name}```
 
-```┃🔗Url :``` ${anu.url}
+┃🔗Url : ```${anu.url}```
 
-```┃⌛Runtime :``` ${runtime(process.uptime())}
+┃⌛Runtime : ```${runtime(process.uptime())}```
 
 ┗━━━━━━━━━❊`,
                     footer: 'νιнαηgα м∂🧚',
@@ -2154,19 +2154,19 @@ break
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: `*┏━━━━❬νιнαηgα м∂🧚❭*
+                    caption: `┏━━━━❬νιнαηgα м∂🧚❭*
 
     *⬇️ YOUTUBE SONG DOWNLODER*
 
-```┃💎Title :``` ${anu.title}
+┃💎Title : ```${anu.title}```
 
-```┃⏳Duration :``` ${anu.timestamp}
+┃⏳Duration : ```${anu.timestamp}```
 
-```┃✍️Author :``` ${anu.author.name}
+┃✍️Author : ```${anu.author.name}```
 
-```┃🔗Url :``` ${anu.url}
+┃🔗Url : ```${anu.url}```
 
-```┃⌛Runtime :``` ${runtime(process.uptime())}
+┃⌛Runtime : ```${runtime(process.uptime())}```
 
 ┗━━━━━━━━━❊`,
                     footer: 'νιнαηgα м∂🧚',
