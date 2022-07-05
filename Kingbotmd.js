@@ -2087,7 +2087,7 @@ break
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: `┏━❬νιнαηgα м∂🧚❭
+                    caption: `*┏━━━❬νιнαηgα м∂🧚❭*
 
     *⬇️ YOUTUBE DOWNLODER*
 
@@ -2110,7 +2110,7 @@ break
             }
             break
                  break
-                 case 'song': case 'සින්දු': {
+                 case 'song':{
                 if (!text) return reply(`Example : ${prefix + command} Stay`)
                 let yts = require("yt-search")
                 let search = await yts(text)
@@ -2121,7 +2121,7 @@ break
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: `┏━❬νιнαηgα м∂🧚❭
+                    caption: `*┏━━━❬νιнαηgα м∂🧚❭*
 
     *⬇️ YOUTUBE SONG DOWNLODER*
 
@@ -2143,7 +2143,7 @@ break
                 KingmdWH.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-                        case 'video': case 'වීඩියෝ':  {
+                        case 'video':  {
                 if (!text) return reply(`Example : ${prefix + command} Stay`)
                 let yts = require("yt-search")
                 let search = await yts(text)
@@ -2154,7 +2154,7 @@ break
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: `┏━❬νιнαηgα м∂🧚❭
+                    caption: `*┏━━━❬νιнαηgα м∂🧚❭*
 
     *⬇️ YOUTUBE VIDEO DOWNLODER*
 
@@ -3405,7 +3405,7 @@ Hello 👋..
 
 ```┃Version 🧚:``` 1.0.1
 
-```┃Runtime ⌛:``` ${runtime(process.uptime())}
+```┃⌛Runtime :``` ${runtime(process.uptime())}
 
 ┗━━━━━━━━━❊ `
            let buttons = [
@@ -3430,13 +3430,13 @@ latensie = speed() - timestampe
 
 Hello 👋..
 
-    ```How Are You 😼```
+    How Are You 😼
 
-```┃Owner 🎩:``` ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
+┃Owner 🎩: ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
 
-```┃Version 🧚:``` 1.0.1
+┃Version 🧚: 1.0.1
 
-```┃Runtime ⌛:``` ${runtime(process.uptime())}
+┃⌛Runtime : ${runtime(process.uptime())}
 
 ┗━━━━━━━━━❊`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -3463,12 +3463,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '⚙ SYSTEM STATUS ⚙️',
+                                    displayText: '⚙️️ SYSTEM STATUS ⚙️',
                                     id: `${prefix}ping`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'OWNER',
+                                    displayText: '🇱🇰 OWNER 🇱🇰',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3485,13 +3485,13 @@ latensie = speed() - timestampe
 
 Hello 👋..
 
-    How Are You 😼
+    ```How Are You 😼```
 
-┃Owner 🎩: ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
+```┃Owner 🎩:``` ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
 
-┃Version 🧚: 1.0.1
+```┃Version 🧚:``` 1.0.1
 
-┃⌛Runtime : ${runtime(process.uptime())}
+```┃⌛Runtime :``` ${runtime(process.uptime())}
 
 ┗━━━━━━━━━❊`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
