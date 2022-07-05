@@ -2091,17 +2091,17 @@ break
 
     *⬇️ YOUTUBE DOWNLODER*
 
-┃💎Title : ${anu.title}
+```┃💎Title :``` ${anu.title}
 
-┃⏳Duration : ${anu.timestamp}
+```┃⏳Duration :``` ${anu.timestamp}
 
-┃✍️Author : ${anu.author.name}
+```┃✍️Author :``` ${anu.author.name}
 
-┃🔗Url : ${anu.url}
+```┃🔗Url :``` ${anu.url}
 
-┃⌛Runtime : ${runtime(process.uptime())}
+```┃⌛Runtime :``` ${runtime(process.uptime())}
 
-┗━━━━━━━━━❊`,
+┗━━━━━━━━━❊ `,
                     footer: KingmdWH.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -2123,17 +2123,17 @@ break
                     image: { url: anu.thumbnail },
                     caption: `┏━❬νιнαηgα м∂🧚❭
 
-    *⬇️ YOUTUBE DOWNLODER*
+    *⬇️ YOUTUBE SONG DOWNLODER*
 
-┃💎Title : ${anu.title}
+```┃💎Title :``` ${anu.title}
 
-┃⏳Duration : ${anu.timestamp}
+```┃⏳Duration :``` ${anu.timestamp}
 
-┃✍️Author : ${anu.author.name}
+```┃✍️Author :``` ${anu.author.name}
 
-┃🔗Url : ${anu.url}
+```┃🔗Url :``` ${anu.url}
 
-┃⌛Runtime : ${runtime(process.uptime())}
+```┃⌛Runtime :``` ${runtime(process.uptime())}
 
 ┗━━━━━━━━━❊`,
                     footer: 'νιнαηgα м∂🧚',
@@ -2156,17 +2156,17 @@ break
                     image: { url: anu.thumbnail },
                     caption: `┏━❬νιнαηgα м∂🧚❭
 
-    *⬇️ YOUTUBE DOWNLODER*
+    *⬇️ YOUTUBE VIDEO DOWNLODER*
 
-┃💎Title : ${anu.title}
+```┃💎Title :``` ${anu.title}
 
-┃⏳Duration : ${anu.timestamp}
+```┃⏳Duration :``` ${anu.timestamp}
 
-┃✍️Author : ${anu.author.name}
+```┃✍️Author :``` ${anu.author.name}
 
-┃🔗Url : ${anu.url}
+```┃🔗Url :``` ${anu.url}
 
-┃⌛Runtime : ${runtime(process.uptime())}
+```┃⌛Runtime :``` ${runtime(process.uptime())}
 
 ┗━━━━━━━━━❊`,
                     footer: 'νιнαηgα м∂🧚',
@@ -3395,19 +3395,19 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                      case 'alive' :{
                            	timestampe = speed();
 latensie = speed() - timestampe
-Kingbotalive = `┏━❬νιнαηgα м∂🧚❭
+Kingbotalive = `┏━━━━❬νιнαηgα м∂🧚❭
 
 Hello 👋..
 
-    How Are You 😼
+    ```How Are You 😼```
 
-┃Owner 🎩: ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
+```┃Owner 🎩:``` ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
 
-┃Version 🧚: 1.0.1
+```┃Version 🧚:``` 1.0.1
 
-┃⌛Runtime : ${runtime(process.uptime())}
+```┃⌛Runtime :``` ${runtime(process.uptime())}
 
-┗━━━━━━━━━❊ `
+┗━━━━━━━━━❊`
            let buttons = [
                {buttonId: `command`, buttonText: {displayText: '🎭 LIST MENU 🎭'}, type: 1},
                {buttonId: `ping`, buttonText: {displayText: '🎲 SYSTEM STATUS 🎲'}, type: 1},
@@ -3426,17 +3426,17 @@ Hello 👋..
                      case 'bot':{
                            	timestampe = speed();
 latensie = speed() - timestampe
- anu = `┏━❬νιнαηgα м∂🧚❭
+ anu = `┏━━━━❬νιнαηgα м∂🧚❭
 
 Hello 👋..
 
-    How Are You 😼
+    ```How Are You 😼```
 
-┃Owner 🎩: ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
+```┃Owner 🎩:``` ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
 
-┃Version 🧚: 1.0.1
+```┃Version 🧚:``` 1.0.1
 
-┃⌛Runtime : ${runtime(process.uptime())}
+```┃⌛Runtime :``` ${runtime(process.uptime())}
 
 ┗━━━━━━━━━❊`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -3481,17 +3481,17 @@ break
             case 'list': case 'menu': case 'panel': case 'help' :{
             	timestampe = speed();
 latensie = speed() - timestampe
-                anu = `┏━❬νιнαηgα м∂🧚❭
+                anu = `┏━━━━❬νιнαηgα м∂🧚❭
 
 Hello 👋..
 
-    How Are You 😼
+    ```How Are You 😼```
 
-┃Owner 🎩: ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
+```┃Owner 🎩:``` ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
 
-┃Version 🧚: 1.0.1
+```┃Version 🧚:``` 1.0.1
 
-┃⌛Runtime : ${runtime(process.uptime())}
+```┃⌛Runtime :``` ${runtime(process.uptime())}
 
 ┗━━━━━━━━━❊`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -3711,9 +3711,9 @@ kingbotshortmenu = `
 ┗━━━━━━━━━━━━━⛦`
 
          let buttons = [
-             {buttonId: `command`, buttonText: {displayText: '🍃 BACK TO MENU 🍃'}, type: 1},
-             {buttonId: `mainmenu`, buttonText: {displayText: '🎲 MAIN MENU 🎲'}, type: 1},
-             {buttonId: `owner`, buttonText: {displayText: '🇱🇰 OWNER 🇱🇰️'}, type: 1}
+             {buttonId: `command`, buttonText: {displayText: 'BACK TO MENU'}, type: 1},
+             {buttonId: `mainmenu`, buttonText: {displayText: 'MAIN MENU'}, type: 1},
+             {buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1}
                          ]
                 let buttonMessage = {
                     image: fs.readFileSync('./KINGMedia/logo.jpeg'),
@@ -4031,8 +4031,8 @@ case 'allmenu': {
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'OWNER',
-                                    id: `${prefix}owner`
+                                    displayText: 'PING',
+                                    id: `${prefix}ping`
                                 }
                             }]
                         }
@@ -4277,7 +4277,7 @@ await KingmdWH.send5ButImg(from, `` + '' + ' ', `
 ┃◈ ${prefix}3dgradient [txt]
 ┃◈ ${prefix}blackpink [txt]
 ┃◈ ${prefix}gluetext [txt]
-┗━━━━━━━━━━━━━🫧`,unicorn, [{"urlButton": {"displayText": "🔥 YOUTUBE 🔥","url": `${myweb}`}},{"urlButton": {"displayText": "🔥 GITHUB 🔥","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🇱🇰 OWNER 🇱🇰","id": 'owner'}}] )
+┗━━━━━━━━━━━━━🫧`,unicorn, [{"urlButton": {"displayText": "YOUTUBE","url": `${myweb}`}},{"urlButton": {"displayText": "GITHUB","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "OWNER","id": 'owner'}}] )
 break
 case 'convertmenu':
 var unicorn = await getBuffer(picak+'Converter Menu')
@@ -4295,7 +4295,7 @@ await KingmdWH.send5ButImg(from, `` + '' + ' ', `
 ┃◈ ${prefix}ebinary [reply txt]
 ┃◈ ${prefix}dbinary [reply txt]
 ┃◈ ${prefix}styletext [text]
-┗━━━━━━━━━━━━━🌟`,unicorn, [{"urlButton": {"displayText": "🔥 YOUTUBE 🔥","url": `${myweb}`}},{"urlButton": {"displayText": "🔥 GITHUB 🔥","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🇱🇰 OWNER 🇱🇰","id": 'owner'}}] )
+┗━━━━━━━━━━━━━🌟`,unicorn, [{"urlButton": {"displayText": "YOUTUBE","url": `${myweb}`}},{"urlButton": {"displayText": "ITHUB","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "OWNER","id": 'owner'}}] )
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
@@ -4309,7 +4309,7 @@ await KingmdWH.send5ButImg(from, `` + '' + ' ', `
 ┃◈ ${prefix}listmsg
 ┃◈ ${prefix}getmsg
 ┃◈ ${prefix}delmsg
-┗━━━━━━━━━━━━━🛠️`,unicorn, [{"urlButton": {"displayText": "🔥 YOUTUBE 🔥","url": `${myweb}`}},{"urlButton": {"displayText": "🔥 GITHUB 🔥","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🇱🇰 OWNER 🇱🇰","id": 'owner'}}] )
+┗━━━━━━━━━━━━━🛠️`,unicorn, [{"urlButton": {"displayText": "YOUTUBE","url": `${myweb}`}},{"urlButton": {"displayText": "GITHUB","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "OWNER","id": 'owner'}}] )
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
@@ -4319,14 +4319,14 @@ await KingmdWH.send5ButImg(from, `` + '' + ' ', `
 ┃◈ ${prefix}start
 ┃◈ ${prefix}next
 ┃◈ ${prefix}leave
-┗━━━━━━━━━━━━━🍂`,unicorn, [{"urlButton": {"displayText": "🔥 YOUTUBE 🔥","url": `${myweb}`}},{"urlButton": {"displayText": "🔥 GITHUB 🔥","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🇱🇰 OWNER 🇱🇰","id": 'owner'}}] )
+┗━━━━━━━━━━━━━🍂`,unicorn, [{"urlButton": {"displayText": "YOUTUBE","url": `${myweb}`}},{"urlButton": {"displayText": "GITHUB","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "OWNER","id": 'owner'}}] )
 break
 case 'islamicmenu':
 var unicorn = await getBuffer(picak+'Islamic Menu')
 await KingmdWH.send5ButImg(from, `` + '' + ' ', `
 ┏━━━🍃Islam Menu🍃━‍
 ┃◈ ${prefix}juzamma
-┗━━━━━━━━━━━━━`,unicorn, [{"urlButton": {"displayText": "🔥 YOUTUBE 🔥","url": `${myweb}`}},{"urlButton": {"displayText": "🔥 GITHUB 🔥","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🇱🇰 OWNER 🇱🇰","id": 'owner'}}] )
+┗━━━━━━━━━━━━━`,unicorn, [{"urlButton": {"displayText": "YOUTUBE","url": `${myweb}`}},{"urlButton": {"displayText": "GITHUB","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "OWNER","id": 'owner'}}] )
 break
 case 'voicechanger menu':
 var unicorn = await getBuffer(picak+'Voice Changer Menu')
@@ -4343,7 +4343,7 @@ await KingmdWH.send5ButImg(from, `` + '' + ' ', `
 ┃◈ ${prefix}robot [reply aud]
 ┃◈ ${prefix}slow [reply aud]
 ┃◈ ${prefix}squirrel [reply aud]
-┗━━━━━━━━━━━━━🎤`,unicorn, [{"urlButton": {"displayText": "🔥 YOUTUBE 🔥","url": `${myweb}`}},{"urlButton": {"displayText": "🔥 GITHUB 🔥","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🇱🇰 OWNER 🇱🇰","id": 'owner'}}] )
+┗━━━━━━━━━━━━━🎤`,unicorn, [{"urlButton": {"displayText": "YOUTUBE","url": `${myweb}`}},{"urlButton": {"displayText": "GITHUB","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "OWNER","id": 'owner'}}] )
 break
 case 'horoscopemenu':
 var unicorn = await getBuffer(picak+'Horoscope Menu')
@@ -4379,15 +4379,15 @@ await KingmdWH.send5ButImg(from, `` + '' + ' ', `
 ┃◈ ${prefix}masasubur (indo)
 ┃◈ ${prefix}zodiak (indo)
 ┃◈ ${prefix}shio (indo)
-┗━━━━━━━━━━━━━📙`,unicorn, [{"urlButton": {"displayText": "🔥 YOUTUBE 🔥","url": `${myweb}`}},{"urlButton": {"displayText": "🔥 GITHUB 🔥","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🇱🇰 OWNER 🇱🇰","id": 'owner'}}] )
+┗━━━━━━━━━━━━━📙`,unicorn, [{"urlButton": {"displayText": "YOUTUBE","url": `${myweb}`}},{"urlButton": {"displayText": "GITHUB","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "OWNER","id": 'owner'}}] )
 break
 case 'thanksto': case 'tqto': case 'tqtt':
 var unicorn = await getBuffer(picak+'Developer')
 await KingmdWH.send5ButImg(from, `` + '' + ' ', `
-Thanks to Me ( whitehackers)
+Thanks to ( whitehackers)
 Alien-Alfa (For helping me to deploy qr in replit and answered my every doubts regard this project)
 DGXeon ( 45% Credits goes to him ,in this script)
-And Again Me (King Nexus ) 🔥 Who Helped Assemble This Sexy Script !!!`,unicorn, [{"urlButton": {"displayText": "🔥 YOUTUBE 🔥","url": `${myweb}`}},{"urlButton": {"displayText": "🔥 GITHUB 🔥","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "🇱🇰 OWNER 🇱🇰","id": 'owner'}}] )
+And Again Me (King Nexus ) 🔥 Who Helped Assemble This Sexy Script !!!`,unicorn, [{"urlButton": {"displayText": "YOUTUBE","url": `${myweb}`}},{"urlButton": {"displayText": "GITHUB","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "OWNER","id": 'owner'}}] )
 break
             default:
                 if (budy.startsWith('=>')) {
