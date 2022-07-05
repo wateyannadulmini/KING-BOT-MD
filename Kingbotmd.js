@@ -2087,9 +2087,7 @@ break
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: `┏━❬νιнαηgα м∂🧚❭
-
-    *⬇️ YOUTUBE DOWNLODER*
+                    caption: `*┏━━━[🧚🏻ᴠɪʜᴀɴɢᴀ ᴅᴏᴡɴ 📩]*
 
 ┃💎Title : ${anu.title}
 
@@ -2121,9 +2119,7 @@ break
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: `┏━❬νιнαηgα м∂🧚❭
-
-    *⬇️ YOUTUBE DOWNLODER*
+                    caption: `*┏━━━[🧚🏻ᴠɪʜᴀɴɢᴀ ꜱᴏɴɢ ᴅᴏᴡɴ 📩]*
 
 ┃💎Title : ${anu.title}
 
@@ -2154,9 +2150,7 @@ break
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: `┏━❬νιнαηgα м∂🧚❭
-
-    *⬇️ YOUTUBE DOWNLODER*
+                    caption: `*┏━━━[🧚🏻ᴠɪʜᴀɴɢᴀ ᴠɪᴅ ᴅᴏᴡɴ 📩]*
 
 ┃💎Title : ${anu.title}
 
@@ -3399,13 +3393,13 @@ Kingbotalive = `┏━❬νιнαηgα м∂🧚❭
 
 Hello 👋..
 
-    ```How Are You 😼```
+    How Are You 😼
 
-```┃Owner 🎩:``` ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
+┃Owner 🎩: ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
 
-```┃Version 🧚:``` 1.0.1
+┃Version 🧚: 1.0.1
 
-```┃⌛Runtime :``` ${runtime(process.uptime())}
+┃⌛Runtime : ${runtime(process.uptime())}
 
 ┗━━━━━━━━━❊ `
            let buttons = [
@@ -3432,11 +3426,11 @@ Hello 👋..
 
     How Are You 😼
 
-```┃Owner 🎩:``` ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
+┃Owner 🎩: ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
 
-```┃Version 🧚:``` 1.0.1
+┃Version 🧚: 1.0.1
 
-```┃⌛Runtime :``` ${runtime(process.uptime())}
+┃⌛Runtime : ${runtime(process.uptime())}
 
 ┗━━━━━━━━━❊`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -3485,13 +3479,13 @@ latensie = speed() - timestampe
 
 Hello 👋..
 
-    ```How Are You 😼```
+    How Are You 😼
 
-```┃Owner 🎩:``` ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
+┃Owner 🎩: ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
 
-```┃Version 🧚:``` 1.0.1
+┃Version 🧚: 1.0.1
 
-```┃⌛Runtime :``` ${runtime(process.uptime())}
+┃⌛Runtime : ${runtime(process.uptime())}
 
 ┗━━━━━━━━━❊`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
