@@ -1367,7 +1367,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
           reply(`Exif Has Been Successfully Changed to\n\n🔥 Packname : ${global.packname}\n🔥 Author : ${global.author}`)
             }
             break
-	case 'kick': {
+	case 'kick': case 'ඩෝං':{
 		if (!m.isGroup) return replay(`${mess.group}`)
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
@@ -2028,7 +2028,7 @@ break
 	    })
 	    }
 	    break
-	    case 'yts': case 'yt': case 'ytsearch': {
+	    case 'ytl': case 'ytlink': case 'ytsearch': {
                 if (!text) return replay(`Example : ${prefix + command} Anime Story Whatsapp`)
                 let yts = require("yt-search")
                 let search = await yts(text)
@@ -2061,7 +2061,7 @@ break
         n = result
         images = n[Math.floor(Math.random() * n.length)].url
         let buttons = [
-                    {buttonId: `gimage ${text}`, buttonText: {displayText: '➡️➡️Next Image➡️➡️'}, type: 1}
+                    {buttonId: `gimage ${text}`, buttonText: {displayText: '➡️Next Image➡️'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: images },
@@ -2076,11 +2076,11 @@ break
         })
         }
         break
-	    case 'play': case 'ytplay': {
+	    case 'play': case 'yt': {
                 if (!text) return reply(`Example : ${prefix + command} Stay`)
                 let yts = require("yt-search")
                 let search = await yts(text)
-                let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
+                let anu = search.videos[0]
                 let buttons = [
                     {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: 'Audio'}, type: 1},
                     {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: 'Video'}, type: 1}
@@ -2089,7 +2089,7 @@ break
                     image: { url: anu.thumbnail },
                     caption: `┏━❬νιнαηgα м∂🧚❭
 
-⬇️ YOUTUBE DOWNLODER
+    *⬇️ YOUTUBE DOWNLODER*
 
 ┃💎Title : ${anu.title}
 
@@ -2123,7 +2123,7 @@ break
                     image: { url: anu.thumbnail },
                     caption: `┏━❬νιнαηgα м∂🧚❭
 
-⬇️ YOUTUBE DOWNLODER
+    *⬇️ YOUTUBE DOWNLODER*
 
 ┃💎Title : ${anu.title}
 
@@ -2150,13 +2150,13 @@ break
                 let anu = search.videos[0]
                 let buttons = [
                     {buttonId: `ytmp4 ${anu.url} 360p`, buttonText: {displayText: '360P QUALITY'}, type: 1},
-                    {buttonId: `ytmp4 ${anu.url} 720p`, buttonText: {displayText: '480P QUALITY'}, type: 1}
+                    {buttonId: `ytmp4 ${anu.url} 720p`, buttonText: {displayText: '720P QUALITY'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
                     caption: `┏━❬νιнαηgα м∂🧚❭
 
-⬇️ YOUTUBE DOWNLODER
+    *⬇️ YOUTUBE DOWNLODER*
 
 ┃💎Title : ${anu.title}
 
@@ -2182,7 +2182,7 @@ break
                 let quality = args[1] ? args[1] : '320kbps'
                 let media = await yta(text, quality)
                 if (media.filesize >= 999999) return reply('File Over Limit '+util.format(media))
-                KingmdWH.sendImage(m.chat, media.thumb, `🇱🇰⃞ Title : ${media.title}\n🇱🇰⃞ File Size : ${media.filesizeF}\n🇱🇰⃞ Url : ${isUrl(text)}\n🇱🇰⃞ Ext : MP3\n🇱🇰⃞ Resolution : ${args[1] || '320kbps'}`, m)
+                KingmdWH.sendImage(m.chat, media.thumb, `🧚 Title : ${media.title}\n🧚 File Size : ${media.filesizeF}\n🧚 Url : ${isUrl(text)}\n🧚 Ext : MP3\n🧚 Resolution : ${args[1] || '320kbps'}`, m)
                 KingmdWH.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
                        break
@@ -2192,7 +2192,7 @@ break
                 let quality = args[1] ? args[1] : '320kbps'
                 let media = await yta(text, quality)
                 if (media.filesize >= 999999) return reply('File Over Limit '+util.format(media))
-                KingmdWH.sendImage(m.chat, media.thumb, `🔥 Title : ${media.title}\n🔥 File Size : ${media.filesizeF}\n🔥 Url : ${isUrl(text)}\n🔥 Ext : MP3\n🔥 Resolution : ${args[1] || '320kbps'}`, m)
+                KingmdWH.sendImage(m.chat, media.thumb, `🧚 Title : ${media.title}\n🧚 File Size : ${media.filesizeF}\n🧚 Url : ${isUrl(text)}\n🧚 Ext : MP3\n🧚 Resolution : ${args[1] || '320kbps'}`, m)
                 KingmdWH.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
             break
@@ -2202,7 +2202,7 @@ break
                 let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(text, quality)
                 if (media.filesize >= 999999) return reply('File Over Limit '+util.format(media))
-                KingmdWH.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `🔥 Title : ${media.title}\n🔥 File Size : ${media.filesizeF}\n🔥 Url : ${isUrl(text)}\n🔥 Ext : MP3\n🔥 Resolution : ${args[1] || '360p'}` }, { quoted: m })
+                KingmdWH.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `🧚 Title : ${media.title}\n🧚 File Size : ${media.filesizeF}\n🧚 Url : ${isUrl(text)}\n🧚 Ext : MP3\n🧚 Resolution : ${args[1] || '360p'}` }, { quoted: m })
             }
             break
                         case 'hvideo': {
@@ -2211,7 +2211,7 @@ break
                 let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(text, quality)
                 if (media.filesize >= 999999) return reply('File Over Limit '+util.format(media))
-                KingmdWH.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `🔥 Title : ${media.title}\n🔥 File Size : ${media.filesizeF}\n🔥 Url : ${isUrl(text)}\n🔥 Ext : MP3\n🔥 Resolution : ${args[1] || '480p'}` }, { quoted: m })
+                KingmdWH.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `🧚 Title : ${media.title}\n🧚 File Size : ${media.filesizeF}\n🧚 Url : ${isUrl(text)}\n🧚 Ext : MP3\n🧚 Resolution : ${args[1] || '480p'}` }, { quoted: m })
             }
             break
 	    case 'ytmp3': case 'getmusic': case 'ytaudio': {
@@ -2220,7 +2220,7 @@ break
                 let quality = args[1] ? args[1] : '320kbps'
                 let media = await yta(text, quality)
                 if (media.filesize >= 999999) return reply('File Over Limit '+util.format(media))
-                KingmdWH.sendImage(m.chat, media.thumb, `🔥 Title : ${media.title}\n🔥 File Size : ${media.filesizeF}\n🔥 Url : ${isUrl(text)}\n🔥 Ext : MP3\n🔥 Resolution : ${args[1] || '320kbps'}`, m)
+                KingmdWH.sendImage(m.chat, media.thumb, `🧚 Title : ${media.title}\n🧚 File Size : ${media.filesizeF}\n🧚 Url : ${isUrl(text)}\n🧚 Ext : MP3\n🧚 Resolution : ${args[1] || '320kbps'}`, m)
                 KingmdWH.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
             break
@@ -2230,7 +2230,7 @@ break
                 let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(text, quality)
                 if (media.filesize >= 999999) return reply('File Over Limit '+util.format(media))
-                KingmdWH.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `🔥 Title : ${media.title}\n🔥 File Size : ${media.filesizeF}\n🔥 Url : ${isUrl(text)}\n🔥 Ext : MP3\n🔥 Resolution : ${args[1] || '360p'}` }, { quoted: m })
+                KingmdWH.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `🧚 Title : ${media.title}\n🧚 File Size : ${media.filesizeF}\n🧚 Url : ${isUrl(text)}\n🧚 Ext : MP3\n🧚 Resolution : ${args[1] || '360p'}` }, { quoted: m })
             }
             break
 	    case 'getmusicxxx': {
@@ -2239,7 +2239,7 @@ break
                 let quality = args[1] ? args[1] : '128kbps'
                 let media = await yta(urls[text - 1], quality)
                 if (media.filesize >= 100000) return reply('File Over Limit '+util.format(media))
-                KingmdWH.sendImage(m.chat, media.thumb, `🔥 Title : ${media.title}\n🔥 File Size : ${media.filesizeF}\n🔥 Url : ${urls[text - 1]}\n🔥 Ext : MP3\n🔥 Resolution : ${args[1] || '128kbps'}`, m)
+                KingmdWH.sendImage(m.chat, media.thumb, `🧚 Title : ${media.title}\n🧚 File Size : ${media.filesizeF}\n🧚 Url : ${urls[text - 1]}\n🧚 Ext : MP3\n🧚 Resolution : ${args[1] || '128kbps'}`, m)
                 KingmdWH.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
             break
@@ -2253,7 +2253,7 @@ break
                 let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(urls[text - 1], quality)
                 if (media.filesize >= 100000) return reply('File Over Limit '+util.format(media))
-                KingmdWH.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `🔥 Title : ${media.title}\n🔥 File Size : ${media.filesizeF}\n🔥 Url : ${urls[text - 1]}\n🔥 Ext : MP3\n🔥 Resolution : ${args[1] || '360p'}` }, { quoted: m })
+                KingmdWH.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `🧚 Title : ${media.title}\n🧚 File Size : ${media.filesizeF}\n🧚 Url : ${urls[text - 1]}\n🧚 Ext : MP3\n🧚 Resolution : ${args[1] || '360p'}` }, { quoted: m })
             }
             break
             case 'pinterest': {
@@ -3769,7 +3769,7 @@ case 'allmenu': {
 ┃◈ ${prefix}group [text]
 ┃◈ ${prefix}editinfo [option]
 ┃◈ ${prefix}add [user]
-┃◈ ${prefix}kick [reply/tag]
+┃◈ ${prefix} [reply/tag]
 ┃◈ ${prefix}hidetag [text]
 ┃◈ ${prefix}tagall [text]
 ┃◈ ${prefix}antilink [on/off]
