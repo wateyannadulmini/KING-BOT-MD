@@ -2087,19 +2087,19 @@ break
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: `*┏━━━❬νιнαηgα м∂🧚❭*
+                    caption: `┏━❬νιнαηgα м∂🧚❭
 
     *⬇️ YOUTUBE DOWNLODER*
 
-```┃💎Title :``` ${anu.title}
+┃💎Title : ${anu.title}
 
-```┃⏳Duration :``` ${anu.timestamp}
+┃⏳Duration : ${anu.timestamp}
 
-```┃✍️Author :``` ${anu.author.name}
+┃✍️Author : ${anu.author.name}
 
-```┃🔗Url :``` ${anu.url}
+┃🔗Url : ${anu.url}
 
-```┃⌛Runtime :``` ${runtime(process.uptime())}
+┃⌛Runtime : ${runtime(process.uptime())}
 
 ┗━━━━━━━━━❊`,
                     footer: KingmdWH.user.name,
@@ -2121,19 +2121,19 @@ break
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: `*┏━━━❬νιнαηgα м∂🧚❭*
+                    caption: `┏━❬νιнαηgα м∂🧚❭
 
-    *⬇️ YOUTUBE SONG DOWNLODER*
+    *⬇️ YOUTUBE DOWNLODER*
 
-```┃💎Title :``` ${anu.title}
+┃💎Title : ${anu.title}
 
-```┃⏳Duration :``` ${anu.timestamp}
+┃⏳Duration : ${anu.timestamp}
 
-```┃✍️Author :``` ${anu.author.name}
+┃✍️Author : ${anu.author.name}
 
-```┃🔗Url :``` ${anu.url}
+┃🔗Url : ${anu.url}
 
-```┃⌛Runtime :``` ${runtime(process.uptime())}
+┃⌛Runtime : ${runtime(process.uptime())}
 
 ┗━━━━━━━━━❊`,
                     footer: 'νιнαηgα м∂🧚',
@@ -2154,19 +2154,19 @@ break
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: `*┏━━━❬νιнαηgα м∂🧚❭*
+                    caption: `┏━❬νιнαηgα м∂🧚❭
 
-    *⬇️ YOUTUBE VIDEO DOWNLODER*
+    *⬇️ YOUTUBE DOWNLODER*
 
-```┃💎Title :``` ${anu.title}
+┃💎Title : ${anu.title}
 
-```┃⏳Duration :``` ${anu.timestamp}
+┃⏳Duration : ${anu.timestamp}
 
-```┃✍️Author :``` ${anu.author.name}
+┃✍️Author : ${anu.author.name}
 
-```┃🔗Url :``` ${anu.url}
+┃🔗Url : ${anu.url}
 
-```┃⌛Runtime :``` ${runtime(process.uptime())}
+┃⌛Runtime : ${runtime(process.uptime())}
 
 ┗━━━━━━━━━❊`,
                     footer: 'νιнαηgα м∂🧚',
@@ -3399,13 +3399,13 @@ Kingbotalive = `┏━❬νιнαηgα м∂🧚❭
 
 Hello 👋..
 
-    ```How Are You 😼```
+    How Are You 😼
 
-```┃Owner 🎩:``` ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
+┃Owner 🎩: ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
 
-```┃Version 🧚:``` 1.0.1
+┃Version 🧚: 1.0.1
 
-```┃⌛Runtime :``` ${runtime(process.uptime())}
+┃⌛Runtime : ${runtime(process.uptime())}
 
 ┗━━━━━━━━━❊ `
            let buttons = [
@@ -3485,13 +3485,13 @@ latensie = speed() - timestampe
 
 Hello 👋..
 
-    ```How Are You 😼```
+    How Are You 😼
 
-```┃Owner 🎩:``` ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
+┃Owner 🎩: ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
 
-```┃Version 🧚:``` 1.0.1
+┃Version 🧚: 1.0.1
 
-```┃⌛Runtime :``` ${runtime(process.uptime())}
+┃⌛Runtime : ${runtime(process.uptime())}
 
 ┗━━━━━━━━━❊`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
