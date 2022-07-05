@@ -2028,7 +2028,7 @@ break
 	    })
 	    }
 	    break
-	    case 'yts': case 'yt': case 'ytsearch': {
+	    case 'yturl': case 'ytr': case 'ytsearch': {
                 if (!text) return replay(`Example : ${prefix + command} Anime Story Whatsapp`)
                 let yts = require("yt-search")
                 let search = await yts(text)
@@ -2076,11 +2076,11 @@ break
         })
         }
         break
-	    case 'play': case 'ytplay': {
+	    case 'play': case 'yt': {
                 if (!text) return reply(`Example : ${prefix + command} Stay`)
                 let yts = require("yt-search")
                 let search = await yts(text)
-                let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
+                let anu = search.videos[0]
                 let buttons = [
                     {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: 'Audio'}, type: 1},
                     {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: 'Video'}, type: 1}
@@ -2123,7 +2123,7 @@ break
                     image: { url: anu.thumbnail },
                     caption: `┏━❬νιнαηgα м∂🧚❭
 
-⬇️ YOUTUBE DOWNLODER
+   *⬇️ YOUTUBE DOWNLODER*
 
 ┃💎Title : ${anu.title}
 
@@ -2143,20 +2143,20 @@ break
                 KingmdWH.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-                        case 'video':  {
+case 'video': {
                 if (!text) return reply(`Example : ${prefix + command} Stay`)
                 let yts = require("yt-search")
                 let search = await yts(text)
                 let anu = search.videos[0]
                 let buttons = [
-                    {buttonId: `mvideo  ${anu.url}`, buttonText: {displayText: '360P QUALITY'}, type: 1},
-                    {buttonId: `hvideo  ${anu.url}`, buttonText: {displayText: '480P QUALITY'}, type: 1}
+                    {buttonId: `ytmp4 ${anu.url} 360p`, buttonText: {displayText: '360p'}, type: 1},
+                    {buttonId: `ytmp4 ${anu.url} 480p`, buttonText: {displayText: '480p'}, type: 1}
+                    {buttonId: `ytmp4 ${anu.url} 720p`, buttonText: {displayText: '720p'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: `┏━❬νιнαηgα м∂🧚❭
-
-⬇️ YOUTUBE DOWNLODER
+                    caption: `
+   *⬇️ YOUTUBE DOWNLODER*
 
 ┃💎Title : ${anu.title}
 
@@ -2169,11 +2169,11 @@ break
 ┃⌛Runtime : ${runtime(process.uptime())}
 
 ┗━━━━━━━━━❊`,
-                    footer: 'νιнαηgα м∂🧚',
+                    footer: GojoMdNx.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
-                KingmdWH.sendMessage(m.chat, buttonMessage, { quoted: m })
+                GojoMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
                              case 'hsong':  {
